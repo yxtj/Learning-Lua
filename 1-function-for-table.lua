@@ -1,5 +1,5 @@
 function show(t)
-	for id,value in pairs(a) do 
+	for id,value in pairs(t) do 
 		print(id,' = ',value);
 	end
 end
@@ -8,7 +8,7 @@ end
 a={11,22,33,44,55};
 show(a);
 
---table (is a C++ map indead)
+--table (is a C++ map indeed)
 a.id=1;
 a.name='yanxiangtianji'
 show(a);
